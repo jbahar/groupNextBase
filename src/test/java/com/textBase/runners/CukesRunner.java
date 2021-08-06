@@ -1,4 +1,4 @@
-tpackage com.textBase.runners;
+package com.textBase.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
