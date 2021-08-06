@@ -1,4 +1,4 @@
-package com.textBase.runners;
+tpackage com.textBase.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"
         }, // plugin is to generate the report in target folder
         features = "src/test/resources/features",
-        glue = "com/nextBase/step_definiton",
+        glue = "com/textBase/step_definiton",
         dryRun = false,
         tags = "@wip"
 )
